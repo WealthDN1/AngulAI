@@ -1,0 +1,11 @@
+cd telegram-gpt-bot
+python -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+# Set environment variables (temporarily for testing)
+export OPENAI_API_KEY="key_91rEjSfdcezoXUNa"
+export TELEGRAM_BOT_TOKEN="7213111927:AAGN9U1CACxV6cMG7w36ZI0FgxFCHEGsj3s"
+
+# Run the bot
+python bot.py
