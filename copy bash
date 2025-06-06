@@ -1,5 +1,5 @@
 git init
 git add .
 git commit -m "Initial commit"
-git remote add origin https://github.com/YOUR_USERNAME/telegram-gpt-bot.git
+git remote add origin https:/https://github.com/WealthDN1/github.com//telegram-gpt-bot.git
 git push -u origin main
